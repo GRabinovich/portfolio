@@ -29,7 +29,7 @@ export const Applications = () => {
         backEndLink: "https://github.com/darioberatti/co-work-backend",
         frontEndLink: "https://github.com/darioberatti/Co-Work-P5-FRONTEND",
       },
-      technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "PostgreSQL", "Sequelize", "React", "Next.js", "Redux", "Radix UI", "Material UI"],
+      technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "PostgreSQL", "Sequelize", "React", "Next.js", "Redux", "Radix UI"],
       img: coworkP5Image,
     },
     {
