@@ -43,7 +43,7 @@ export const Modal = ({ selectedApp, closeApp }) => {
             </>
           )}
 
-          {selectedApp.demoAvailable === false ? (
+          {!selectedApp.demo ? (
             <>
               <button className="disabled-button">Demo</button>
               <p className="message-disabled-button">*La demo aún no está disponible porque el proyecto sigue en desarrollo</p>
