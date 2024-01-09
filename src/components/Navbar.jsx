@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LogoLight from "../assets/LogoLight.webp";
-import LogoDark from "../assets/LogoDark.png";
+import LogoDark from "../assets/LogoDark.webp";
 import { Link } from "react-scroll";
 import { lightMode, darkMode } from "../state/actionsDarkMode";
 import { useDispatch, useSelector } from "react-redux";

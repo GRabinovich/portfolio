@@ -1,6 +1,6 @@
 import React from "react";
 import MemojiLight from "../assets/MemojiLight.webp";
-import MemojiDark from "../assets/MemojiDark.png";
+import MemojiDark from "../assets/MemojiDark.webp";
 import { GitHubIcon } from "../common/icons/page/Github";
 import { LinkedInIcon } from "../common/icons/page/Linkedin";
 import CVIcon from "../common/icons/page/cv.svg";
