@@ -5,6 +5,7 @@ import { GitHubIcon } from "../common/icons/page/Github";
 import { LinkedInIcon } from "../common/icons/page/Linkedin";
 import CVIcon from "../common/icons/page/cv.svg";
 import { useSelector } from "react-redux";
+import "../styles/Start.css"
 
 export const Start = () => {
   const isDarkMode = useSelector((state) => state.darkMode.darkMode);

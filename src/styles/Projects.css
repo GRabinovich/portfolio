@@ -1,0 +1,214 @@
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 40px;
+  }
+  
+  .title-projects {
+    color: #6720ff;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .title-app {
+    font-size: 30px;
+    font-family: Sebino;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  @keyframes show {
+    from {
+      opacity: 0;
+      scale: 25%;
+    }
+  
+    to {
+      opacity: 1;
+      scale: 100%;
+    }
+  }
+  
+  .img-app {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 10% cover 50%;
+    animation-fill-mode: both;
+  }
+  
+  .description-app {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .container-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+  
+  .container-tags {
+    margin-top: 10px;
+  }
+  
+  .container-applications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 60px;
+  }
+  
+  .container-applications.dark {
+    background-color: rgba(143, 122, 214, 0.4);
+  }
+  
+  .subcontainer-app-left,
+  .subcontainer-app-right {
+    margin: 10px;
+  }
+  
+  .container-app-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container-tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a27df1;
+    border: 2px solid #a27df1;
+    border-radius: 60px;
+    padding: 4px;
+    margin: 2px;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fullscreen {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border: 2px solid #a27df1;
+    border-radius: 60px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .modal {
+    display: flex;
+  }
+  
+  .container-button-close {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0px;
+  }
+  
+  .button-close {
+    background-color: #a27df1;
+    border: 1px solid white;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button-close:hover {
+    transform: scale(1.1);
+  }
+  
+  .image-button-close {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-buttons {
+    font-family: Sebino;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 0 5px 15px 0px rgba(103, 32, 255, 0.4);
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+  }
+  
+  .app-buttons.dark {
+    background-color: #907ad6;
+    color: white;
+  }
+  
+  .app-buttons:hover {
+    letter-spacing: 2.5px;
+    background-color: #6720ff;
+    color: white;
+    box-shadow: 0 10px 30px 0px rgba(103, 32, 255, 0.6);
+  }
+  
+  .app-buttons.dark:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0px 30px 0px rgba(143, 122, 214, 0.6);
+  }
+  
+  .app-buttons:active {
+    box-shadow: 0 10px 30px 0px rgba(103, 32, 255, 0.6);
+    transform: translateY(2px);
+    transition: 100ms;
+  }
+  
+  .disabled-button {
+    font-family: Sebino;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 100px;
+    font-size: 16px;
+    border: 0;
+    background-color: rgb(190, 190, 190);
+    color: white;
+    box-shadow: 0 5px 15px 0px rgba(190, 190, 190, 0.4);
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  .message-disabled-button {
+    font-family: Sebino;
+    font-size: 12px;
+  }
+  

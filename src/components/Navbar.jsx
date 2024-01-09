@@ -6,6 +6,7 @@ import { lightMode, darkMode } from "../state/actionsDarkMode";
 import { useDispatch, useSelector } from "react-redux";
 import MoonIcon from "../common/icons/page/moon.svg";
 import SunIcon from "../common/icons/page/sun.svg";
+import "../styles/Navbar.css";
 
 export const Navbar = () => {
   const dispatch = useDispatch();

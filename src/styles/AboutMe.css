@@ -1,0 +1,25 @@
+.container-about-me-abilities {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .container-about-me {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 100px;
+  }
+  
+  .title-content-about-me {
+    color: #6720ff;
+    font-size: 40px;
+  }
+  
+  .content-about-me {
+    font-size: 20px;
+    margin: 14px 0px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Montserrat", sans-serif;
+  }

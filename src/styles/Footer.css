@@ -1,0 +1,16 @@
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px 0px;
+    width: 100%;
+    font-family: Sebino;
+    font-size: 20px;
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .container-footer.dark {
+    background-color: rgba(143, 122, 214, 0.4);
+    color: white;
+  }

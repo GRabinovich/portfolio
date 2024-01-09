@@ -4,6 +4,7 @@ import { MailIcon } from "../common/icons/page/Mail";
 import { MapIcon } from "../common/icons/page/Map";
 import { Form } from "../common/Form";
 import { useSelector } from "react-redux";
+import "../styles/Contact.css"
 
 export const Contact = () => {
   const form = useRef();

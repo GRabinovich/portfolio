@@ -1,0 +1,148 @@
+.container-contact {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+  }
+  
+  .subcontainer-contact-left,
+  .subcontainer-contact-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .container-label-input {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  
+  .title-contact {
+    color: #6720ff;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  input {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 4px;
+    outline: none;
+    width: 400px;
+  }
+  
+  textarea {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    border-radius: 2px;
+    outline: none;
+    width: 420px;
+    height: 200px;
+  }
+  
+  .message-incomplete-input {
+    font-family: Sebino;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: red;
+  }
+  
+  .container-send-form-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .send-form-button {
+    width: 80px;
+    height: 40px;
+    border-radius: 60px;
+    background-color: #a27df1;
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .send-icon {
+    width: 24px;
+    transition-duration: 0.3s;
+  }
+  
+  .send-form-button:hover {
+    width: 280px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+    background-color: #6720ff;
+    align-items: center;
+  }
+  
+  .send-form-button:hover .send-icon {
+    width: 20px;
+    transition-duration: 0.3s;
+    transform: translateY(200%);
+  }
+  
+  .send-form-button::before {
+    position: absolute;
+    top: -55px;
+    content: "Enviar";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 4px;
+  }
+  
+  .send-form-button:hover::before {
+    font-size: 26px;
+    opacity: 1;
+    transform: translateY(60px);
+    transition-duration: 0.3s;
+  }
+  
+  .container-subtitle-contact {
+    display: flex;
+  }
+  
+  .subtitle-contact {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+  
+  .container-form {
+    width: 80%;
+  }
+  
+  form {
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 0 5px 15px 0px rgba(103, 32, 255, 0.4);
+  }
+  
+  form.dark {
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0 0px 30px 0px rgba(143, 122, 214, 0.6);
+  }

@@ -1,6 +1,7 @@
 import React from "react";
 import { ApplicationsCards } from "../common/ApplicationsCards";
 import { useSelector } from "react-redux";
+import "../styles/Projects.css"
 
 export const Projects = () => {
   const isDarkMode = useSelector((state) => state.darkMode.darkMode);

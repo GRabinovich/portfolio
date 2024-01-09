@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import "../styles/AboutMe.css"
 
 export const AboutMe = () => {
   const isDarkMode = useSelector((state) => state.darkMode.darkMode)

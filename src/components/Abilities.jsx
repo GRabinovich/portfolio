@@ -1,6 +1,7 @@
 import React from "react";
 import { AbilitiesCards } from "../common/AbilitiesCards";
 import { useSelector } from "react-redux";
+import "../styles/Abilities.css"
 
 export const Abilities = () => {
   const isDarkMode = useSelector((state) => state.darkMode.darkMode);
