@@ -24,7 +24,7 @@ export const Start = () => {
             <LinkedInIcon className={`img-start ${isDarkMode ? "dark" : ""}`} />
           </a>
           <div className="container-button-download-cv">
-            <a href="https://drive.google.com/file/d/1rgwMcpciZqv76bWLAMC3IQZ8p06ZKuA5/view?usp=sharing" target="_blank" style={{ textDecoration: "none" }}>
+            <a href="https://drive.google.com/file/d/1OmdlkZFjOBwEgQKFpgYtEXDyG2um-dvT/view?usp=sharing" target="_blank" style={{ textDecoration: "none" }}>
               <button className={`button-download-cv ${isDarkMode ? "dark" : ""}`}>
                 Descargar CV <img className="img-cv" src={CVIcon} alt="CV Icon" width={28} height={28} />
               </button>
