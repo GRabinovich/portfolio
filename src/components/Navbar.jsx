@@ -32,11 +32,7 @@ export const Navbar = () => {
   return (
     <nav className={`navbar ${isMenuOpen ? "open" : ""} ${isDarkMode ? "dark" : ""}`}>
       <div className="navbar-content">
-        {isDarkMode ? (
-          <img src={LogoDark} className="navbar-logo dark" alt="Logo Dark" />
-        ) : (
-          <img src={LogoLight} className="navbar-logo" alt="Logo Light" />
-        )}
+        {isDarkMode ? <img src={LogoDark} className="navbar-logo dark" alt="Logo Dark" /> : <img src={LogoLight} className="navbar-logo" alt="Logo Light" />}
         <div className={`navbar-toggle`} onClick={toggleMenu}>
           <div className={`bar ${isDarkMode ? "dark" : ""}`}></div>
           <div className={`bar ${isDarkMode ? "dark" : ""}`}></div>
@@ -69,7 +65,7 @@ export const Navbar = () => {
             </Link>
           </li>
           <li className={`navbar-item ${isDarkMode ? "dark" : ""}`} onClick={handleModeToggle}>
-            {isDarkMode ? <img src={MoonIcon} alt="Moon Icon" /> : <img src={SunIcon} alt="Sun Icon" />}
+            {isDarkMode ? <img src={SunIcon} alt="Sun Icon" /> : <img src={MoonIcon} alt="Moon Icon" />}
           </li>
         </ul>
       </div>
