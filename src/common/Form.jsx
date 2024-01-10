@@ -25,7 +25,12 @@ export const Form = ({ form, sendEmail, formData, setFormData, emptyName, emptyE
         {emptyMessage ? <p className="message-incomplete-input">*Complete este campo para poder mandar el mensaje correctamente.</p> : ""}
         <div className="container-send-form-button">
           <button className={`send-form-button ${isDarkMode ? "dark" : ""}`} type="submit" value="Send">
-            <img className="send-icon" src={SendIcon} alt="Send Icon" />
+            <div className="svg-wrapper-1">
+              <div className="svg-wrapper">
+              <img className="send-icon" src={SendIcon} alt="Send Icon" />
+              </div>
+            </div>
+            <span>Send</span>
           </button>
         </div>
       </form>
