@@ -4,7 +4,8 @@ import { MailIcon } from "../common/icons/page/Mail";
 import { MapIcon } from "../common/icons/page/Map";
 import { Form } from "../common/Form";
 import { useSelector } from "react-redux";
-import "../styles/Contact.css"
+import { Toaster, toast } from "sonner";
+import "../styles/Contact.css";
 
 export const Contact = () => {
   const form = useRef();
@@ -49,6 +50,8 @@ export const Contact = () => {
         (res) => {
           console.log(res.text);
 
+          toast("Correo enviado correctamente!", { type: "success" });
+
           setFormData({
             user_name: "",
             user_email: "",
@@ -57,6 +60,7 @@ export const Contact = () => {
         },
         (error) => {
           console.log(error.text);
+          toast("Error al enviar el correo", { type: "error" });
         }
       );
     }
@@ -77,6 +81,7 @@ export const Contact = () => {
       </div>
       <div className="subcontainer-contact-right">
         <Form form={form} sendEmail={sendEmail} formData={formData} setFormData={setFormData} emptyName={emptyName} emptyEmail={emptyEmail} emptyMessage={emptyMessage} />
+        <Toaster/>
       </div>
     </div>
   );
