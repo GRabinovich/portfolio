@@ -85,6 +85,10 @@
     transition-duration: 0.3s;
     overflow: hidden;
   }
+
+  .send-form-button:hover {
+    background-color: #6720ff;
+  }
   
   .send-form-button span {
     display: block;

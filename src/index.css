@@ -143,6 +143,11 @@ ul.navbar-list.open.dark,
     width: 200px;
   }
 
+  .message-disabled-button {
+    display: flex;
+    text-align: center;
+  }
+
   .subcontainer-app-left {
     display: flex;
     flex-direction: column;
