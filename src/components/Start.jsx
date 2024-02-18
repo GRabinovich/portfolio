@@ -17,14 +17,14 @@ export const Start = () => {
         <h1 className={`title-content-start ${isDarkMode ? "dark" : ""}`}>Gastón Ariel Rabinovich</h1>
         <h2 className={`subtitle-content-start ${isDarkMode ? "dark" : ""}`}>Full Stack Developer</h2>
         <div className="networks-start">
-          <a href="https://github.com/GRabinovich">
+          <a href="https://github.com/GRabinovich" target="_blank">
             <GitHubIcon className={`img-start ${isDarkMode ? "dark" : ""}`} />
           </a>
           <a href="https://www.linkedin.com/in/gast%C3%B3n-ariel-rabinovich-276711283/" target="_blank">
             <LinkedInIcon className={`img-start ${isDarkMode ? "dark" : ""}`} />
           </a>
           <div className="container-button-download-cv">
-            <a href="https://drive.google.com/file/d/1OmdlkZFjOBwEgQKFpgYtEXDyG2um-dvT/view?usp=sharing" target="_blank" style={{ textDecoration: "none" }}>
+            <a href="https://drive.google.com/file/d/1YGFHXZIJ4_fowzkrghhsnlKhLp5tx3pV/view?usp=sharing" target="_blank" style={{ textDecoration: "none" }}>
               <button className={`button-download-cv ${isDarkMode ? "dark" : ""}`}>
                 Descargar CV <img className="img-cv" src={CVIcon} alt="CV Icon" width={28} height={28} />
               </button>

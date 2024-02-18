@@ -22,12 +22,9 @@ import DockerIcon from "../common/icons/abilities/docker.svg"
 import JestIcon from "../common/icons/abilities/jest.svg"
 import GitIcon from "../common/icons/abilities/git.svg"
 import GitHubIcon from "../common/icons/abilities/github.svg"
-import GitHubActions from "../common/icons/abilities/githubactions.svg"
-import TrelloIcon from "../common/icons/abilities/trello.svg"
-import NotionIcon from "../common/icons/abilities/notion.svg"
-import FigmaIcon from "../common/icons/abilities/figma.svg"
-import CanvaIcon from "../common/icons/abilities/canva.svg"
-import PostmanIcon from "../common/icons/abilities/postman.svg"
+import GitHubActionsIcon from "../common/icons/abilities/githubactions.svg"
+import CloudinaryIcon from "../common/icons/abilities/cloudinary.svg"
+import AWSIcon from "../common/icons/abilities/aws.svg"
 
 export const Skills = () => {
   return [
@@ -129,27 +126,15 @@ export const Skills = () => {
     },
     {
       name: "Github Actions",
-      img: GitHubActions,
+      img: GitHubActionsIcon,
     },
     {
-      name: "Trello",
-      img: TrelloIcon,
+      name: "Cloudinary",
+      img: CloudinaryIcon,
     },
     {
-      name: "Notion",
-      img: NotionIcon,
-    },
-    {
-      name: "Figma",
-      img: FigmaIcon,
-    },
-    {
-      name: "Canva",
-      img: CanvaIcon,
-    },
-    {
-      name: "Postman",
-      img: PostmanIcon,
-    },
+      name: "AWS",
+      img: AWSIcon,
+    }
   ];
 };

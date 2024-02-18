@@ -14,11 +14,12 @@ export const Applications = () => {
       name: "Fast Delivery",
       description: 
       "App para empresa logística de última milla con numerosos repartidores. Permite monitoreo, asignación y reasignación de paquetes, así como intervención en casos necesarios.",
+      demo: "https://drive.google.com/file/d/1xgRGA9hDalRLBkDyytWn90dFRUouxuuv/view?usp=sharing",
       repoLinks: {
         backEndLink: "https://github.com/Tute22/Chacurbanos-back",
         frontEndLink: "https://github.com/Tute22/Chacurbanos-front",
       },
-      technologies: ["HTML", "CSS", "TypeScript", "Node.js", "Nest.js", "MongoDB", "Mongoose", "React", "Next.js", "Vite.js", "Tailwind CSS", "Docker", "Jest", "Github Actions"],
+      technologies: ["HTML", "CSS", "TypeScript", "Node.js", "Nest.js", "MongoDB", "Mongoose", "React", "Next.js", "Vite.js", "Tailwind CSS", "Docker", "Jest", "Github Actions", "Cloudinary", "AWS"],
       img: fastDeliveryImage,
     },
     {

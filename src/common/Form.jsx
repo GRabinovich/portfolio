@@ -30,7 +30,7 @@ export const Form = ({ form, sendEmail, formData, setFormData, emptyName, emptyE
               <img className="send-icon" src={SendIcon} alt="Send Icon" />
               </div>
             </div>
-            <span>Send</span>
+            <span>Enviar</span>
           </button>
         </div>
       </form>
